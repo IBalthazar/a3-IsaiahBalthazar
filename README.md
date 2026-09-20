@@ -104,8 +104,10 @@ Include a very brief summary of your project here. Images are encouraged, along 
 - what CSS framework you used and why
   - include any modifications to the CSS framework you made via custom CSS you authored
 
+I built an Assignment Tracker where you can input any assignment you need to complete along with its category and due date. There is also a Priority Level for major assignments that changes based on how close it is to the deadline. Users also have the ability to edit and/or delete any existing data they have submitted. In order to modify data you must click the edit button and type in your changes into the form and hit submit. I think the hardest part of the project was implementing OAuth. I struggled to understand how to implement and how it would work with my project. I chose OAuth using passport for my authentication strategy honestly for the challenge and there was good documentation that I followed in order to implement it. I used Pico for for my css framework because it was simple and easy to implement but also the default styling looks prety good. I did make some changes to it using my own css files to fix some placements of certain buttons and the look of my list.
 ## Technical Achievements
 - **Tech Achievement 1**: I used OAuth authentication via the GitHub strategy
+- **Tech Achievement 2**: I used Express-Session which establishes sserver based sessions and passport for implementing Oauth
 
 ### Design/Evaluation Achievements
-- **Design Achievement 1**: I followed the following tips from the W3C Web Accessibility Initiative...
+
