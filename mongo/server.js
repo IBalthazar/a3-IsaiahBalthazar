@@ -10,7 +10,9 @@ const passport = require("passport");
 const GitHubStrategy = require("passport-github2").Strategy;
 
 // Go up from the server folder, then into public
-app.use(express.static(path.join(__dirname, "../public")));
+app.use(express.static(path.join(__dirname, "../public"), {
+    index: "login.html"
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
